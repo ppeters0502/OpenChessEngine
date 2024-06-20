@@ -1,0 +1,12 @@
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\OpenChessEngineAPI.exe
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\appsettings.json
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\OpenChessEngineAPI.dll
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\OpenChessEngineAPI.deps.json
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\OpenChessEngineAPI.runtimeconfig.json
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\OpenChessEngineAPI.pdb
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ppete\Documents\OpenChessEngine\OpenChessEngineAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

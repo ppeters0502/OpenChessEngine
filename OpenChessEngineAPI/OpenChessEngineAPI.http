@@ -1,0 +1,6 @@
+@OpenChessEngineAPI_HostAddress = http://localhost:9090
+
+GET {{OpenChessEngineAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
