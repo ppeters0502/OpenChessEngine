@@ -1,5 +1,14 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+                      policy  =>
+                      {
+                          policy.WithOrigins("http://localhost").AllowAnyHeader().AllowAnyMethod();
+                      });
+});
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -15,6 +24,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 
 var summaries = new[]
 {
@@ -36,6 +46,11 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapGet("/chess", () => {
+    return "Hello World!";
+})
+.WithName("GetHelloWorld")
+.WithOpenApi();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

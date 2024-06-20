@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+    # This is what we added
+    nginx:
+        restart: always
+        image: nginx:alpine
+        build:
+          dockerfile: ./frontend/Dockerfile
+          context: .
+        ports:
+            - 8080:80
+
+    backend:
+        build:
+            dockerfile: Dockerfile
+            context: .
+            args:
+                project_name: OpenChessEngineAPI
+        ports:
+          - 5291:5291
+        restart: always

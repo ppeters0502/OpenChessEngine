@@ -1,3 +1,3 @@
 FROM nginx
-COPY chessboard /usr/share/nginx/html
+COPY /frontend/chessboard /usr/share/nginx/html
 VOLUME /usr/share/nginx/html
