@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenChessEngineAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcbe0fbcb06d968d5c0ad1690f9b1233351685da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf1da12501b76fbf190546705cb3458b0ebac88")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenChessEngineAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenChessEngineAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

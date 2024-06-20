@@ -460,24 +460,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ppete\\.nuget\\packages\\": {}
+    "C:\\Users\\pat_peters\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ppete\\Documents\\OpenChessEngine\\OpenChessEngineAPI\\OpenChessEngineAPI.csproj",
+      "projectUniqueName": "C:\\Devel\\pet_projects\\OpenChessEngine\\OpenChessEngineAPI\\OpenChessEngineAPI.csproj",
       "projectName": "OpenChessEngineAPI",
-      "projectPath": "C:\\Users\\ppete\\Documents\\OpenChessEngine\\OpenChessEngineAPI\\OpenChessEngineAPI.csproj",
-      "packagesPath": "C:\\Users\\ppete\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ppete\\Documents\\OpenChessEngine\\OpenChessEngineAPI\\obj\\",
+      "projectPath": "C:\\Devel\\pet_projects\\OpenChessEngine\\OpenChessEngineAPI\\OpenChessEngineAPI.csproj",
+      "packagesPath": "C:\\Users\\pat_peters\\.nuget\\packages\\",
+      "outputPath": "C:\\Devel\\pet_projects\\OpenChessEngine\\OpenChessEngineAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ppete\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pat_peters\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -490,11 +492,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -529,7 +526,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
